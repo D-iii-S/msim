@@ -1,4 +1,4 @@
-Name: {{{ git_name name="msim" }}}
+Name: {{{ git_name name="msim-git" }}}
 Version: {{{ git_version }}}
 Release: 1%{?dist}
 Summary: A virtual machine simulator based on a MIPS R4000 processor
