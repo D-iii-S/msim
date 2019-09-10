@@ -34,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 
 mkdir -p $RPM_BUILD_ROOT%{_bindir}/
 mkdir -p $RPM_BUILD_ROOT%{pkgdocdir}/
-install -m 0755 bin/msim $RPM_BUILD_ROOT%{_bindir}/
+install -m 0755 msim $RPM_BUILD_ROOT%{_bindir}/
 install -m 0644 -t $RPM_BUILD_ROOT%{pkgdocdir}/ doc/reference.html doc/default.css
 
 %clean
